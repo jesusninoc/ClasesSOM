@@ -1,0 +1,4 @@
+#######################################
+#Ejecutar un proceso leyendo de fichero que tiene la ruta del fichero que voy a ver en Notepad
+#######################################
+start-process notepad (gc fichero.txt)
