@@ -1,0 +1,14 @@
+#######################################
+#Listar un número de procesos que introduce el usuario y ordenar los procesos por un valor que introduce el usuario
+#Listar un número de procesos que introduce el usuario y ordenar los procesos por un valor que introduce el usuario y almacena en un fichero
+#######################################
+ps | sort cpu
+
+ps | sort cpu | select -First 5
+ps | sort cpu -Descending | select -First 5
+
+ps | select -First 5 | sort cpu
+ps | select -First 5 | sort cpu -Descending
+
+ps | select -First (Read-Host) | sort (Read-Host)
+ps | select -First (gc numero) | sort (gc buscar)
