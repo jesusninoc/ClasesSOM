@@ -1,0 +1,12 @@
+#######################################
+#LINUX
+#######################################
+#Ejecutar un comando de Linux leyendo desde un fichero el comando
+
+echo "ps" > ejecutar
+#cat ejecutar
+#`cat ejecutar`
+
+######
+#ejecutar=`cat ejecutar`
+#$ejecutar
