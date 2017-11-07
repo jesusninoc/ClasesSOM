@@ -1,0 +1,15 @@
+#Seleccionar nombre de ficheros
+Get-ChildItem | Select-Object name
+
+#Seleccionar todas las propiedades
+Get-ChildItem | Select-Object *
+
+#Intentar agrupar
+New-Item nombre
+New-Item nombre.1
+Get-ChildItem | Group-Object Name
+
+#Agrupar por extensión
+New-Item nombre1.1
+New-Item nombre.1
+Get-ChildItem | Group-Object Extension
