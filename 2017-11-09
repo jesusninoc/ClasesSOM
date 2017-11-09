@@ -9,4 +9,8 @@
 #¿Qué procedimiento utilizas para instalar sistemas operativos en un entorno virtual?, explica el proceso.
 #¿Qué ha podido ocurrir?, soluciona el siguiente caso: se ha producido una fuga de información dentro de la empresa, un empleado ha logrado robar 1 GB de información y no ha sido detectado por ningún elemento de la red.
 #¿Cómo puedes darte cuenta de que hay un proceso que consume toda la memoria RAM del equipo?
+#Listar los procesos con varios alias.
+#Listar los servicios con varios alias.
+#Añadir a una variable el resultado de ordenar por CPU descendente.
+#Agrupar por nombre de proceso y guardar el resultado en una variable.
 ######################################################################
