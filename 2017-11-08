@@ -1,8 +1,14 @@
-#Crear dos ficheros con el nombre de los procesos con extensión ".procesos" y agruparlos por extensión
+#Seleccionar nombre de los ficheros
+Get-ChildItem | select name
 
-Get-Process | Select-Object name | Out-File 1.procesos
-Get-Process | Select-Object name | Out-File 2.procesos
+#Seleccionar nombre de los ficheros y la extensión
+Get-ChildItem | select name,Extension
 
+#Agrupar nombre de ficheros por extensión
 Get-ChildItem | Group-Object Extension
 
+#Crear dos ficheros con el nombre de los procesos con extensión ".procesos" y agruparlos por extensión
+Get-Process | Select-Object name | Out-File 1.procesos
+Get-Process | Select-Object name | Out-File 2.procesos
 Get-ChildItem | select Extension | Select-String ".procesos" | Group-Object
+ls | select Extension | Select-String ".procesos" | group
