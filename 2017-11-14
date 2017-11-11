@@ -1,2 +1,6 @@
 #Recopilar información acerca de los equipos
+#Obtener información sobre el hardware creando un objeto con todos los datos
+#https://www.jesusninoc.com/2017/09/07/obtener-informacion-sobre-el-hardware-creando-un-objeto-con-todos-los-datos/
+
+#Recopilar información acerca de los equipos desde el punto de vista de la seguridad
 #https://github.com/jesnino/PowerShell/blob/master/Seguridad/Recopilar%20informaci%C3%B3n%20acerca%20de%20los%20equipos
