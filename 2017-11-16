@@ -1,12 +1,3 @@
-#Utilizar ? y * para Get-ChildItem
-ni fichero
-ni fichero2
-Get-ChildItem *fi
-Get-ChildItem ?ichero
-
-#Más sobre Get-ChildItem
-https://github.com/jesnino/PowerShell/blob/master/Ficheros/EjemplosFicheros.ps1
-
 #Crear agenda
 #https://www.jesusninoc.com/2014/04/27/agenda-primera-version/
 
