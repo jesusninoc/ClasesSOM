@@ -5,7 +5,7 @@ Get-ChildItem *fi
 Get-ChildItem ?ichero
 
 #Más sobre Get-ChildItem
-https://github.com/jesnino/PowerShell/blob/master/Ficheros/EjemplosFicheros.ps1
+#https://github.com/jesnino/PowerShell/blob/master/Ficheros/EjemplosFicheros.ps1
 
 #Nuevo tema: Sistema de archivos
-https://www.jesusninoc.com/2017/07/04/4-gestion-del-sistema-de-archivos-en-powershell/
+#https://www.jesusninoc.com/2017/07/04/4-gestion-del-sistema-de-archivos-en-powershell/
