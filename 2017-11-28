@@ -1,1 +1,31 @@
 #Ejercicios sistemas de archivos
+
+#Eliminar los archivos que contengan "ola" en el nombre
+mkdir ficherosola
+cd ficherosola
+#Crear dos archivos
+"hola" > hola
+"mola" > mola
+#Listar los archivos
+Get-ChildItem
+#Eliminar los archivos que contengan la palabra "ola"
+Remove-Item ?ola
+Start-Sleep -Seconds 5
+#Comprobar que se han eliminado los ficheros cuyo nombre contenían la palabra "ola"
+Get-ChildItem
+
+#Eliminar los archivos que contengan de nombre el contenido del fichero eliminar.txt
+mkdir ficherosola
+cd ficherosola
+#Almacenar en el fichero eliminar.txt la palabra "?ola", por lo tanto los ficheros que contengan la cadena hola se eliminan
+"?ola" > eliminar.txt
+#Crear dos archivos
+"hola" > hola
+"mola" > mola
+#Listar los archivos
+Get-ChildItem
+#Eliminar los archivos que contengan "ola"
+Remove-Item (gc eliminar.txt)
+Start-Sleep -Seconds 5
+#Comprobar que se han eliminado los ficheros cuyo nombre contenían la palabra "ola"
+Get-ChildItem
