@@ -1,0 +1,36 @@
+############
+#Get-Content
+############
+
+#Guardar en un fichero los números del 1 al 20
+(1..20) | Out-File fichero.txt
+
+#Mostrar el contenido de un fichero
+Get-Content .\fichero.txt
+
+#Mostrar la primera línea de un fichero
+Get-Content .\fichero.txt -Head 1
+
+#Mostrar la primera línea de un fichero (indicando la posición 0 que corresponde al primer valor del fichero)
+(Get-Content .\fichero.txt)[0]
+
+#Mostrar el número de líneas que tiene el fichero
+(Get-Content .\fichero.txt).Length
+
+#Mostrar la última línea de un fichero
+Get-Content .\fichero.txt -Tail 1
+
+#Mostrar la última línea de un fichero (indicando la última posición 19 que corresponde al último valor del fichero)
+(Get-Content .\fichero.txt)[19]
+
+#Mostrar la última línea de un fichero (indicando la última posición con el método Length)
+(Get-Content .\fichero.txt)[(Get-Content .\fichero.txt).Length-1]
+
+#Mostrar la quinta línea de un fichero (indicando la posición 5 ya que empezamos a contar desde el 0)
+(Get-Content .\fichero.txt)[5]
+
+#Mostrar de la línea 5 a la 10 de un fichero
+(Get-Content .\fichero.txt)[5..10]
+
+#Mostrar las diez primera líneas de un fichero
+Get-Content fichero.txt -TotalCount 10
