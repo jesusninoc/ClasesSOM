@@ -14,3 +14,10 @@
 
 #Get-Date
 #https://github.com/jesnino/PowerShell/blob/master/Fechas/EjemplosFechas.ps1
+
+#Ejemplos con fechas
+ls | where CreationTime -LT (get-date)
+ls | where CreationTime -lt (get-date).AddDays(-1)
+ls | where CreationTime -gt (get-date)
+#Fecha exacta
+dir | ? {$_.lastwritetime -gt ‘1/1/18’ -AND $_.lastwritetime -lt ‘6/1/18’}
