@@ -1,0 +1,17 @@
+##############################################################################################
+#Ejercicios básicos en el sistema (Bash)
+##############################################################################################
+#Usuarios conectados en el terminal
+who
+#Mostrar fecha y hora
+date
+#Información sobre el sistema
+uname
+#Limpiar la pantalla
+clear
+#Mostrar ayuda
+man
+#Cambiar contraseña
+passwd
+#Salir de la Shell
+exit
