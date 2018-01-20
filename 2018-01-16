@@ -1,0 +1,31 @@
+##############################################################################################
+#Ejercicios con ficheros y directorios
+##############################################################################################
+#Crear o modificar un archivo
+vi nombre
+#Crear un directorio
+mkdir
+#Ver el contenido de un archivo
+cat
+#Acceder al contenido de un directorio
+cd
+#Listar el contenido de un directorio
+ls
+#Ver la estructura de un directorio
+tree
+#Eliminar un archivo
+rm
+#Eliminar un directorio
+rmdir
+#Copiar un archivo o un directorio
+copy
+#Mover un archivo o un directorio
+mv
+#Renombrar un archivo o un directorio
+mv
+#Establecer permisos en un archivo o un directorio
+chmod
+#Comprimir y descomprimir un archivo o un directorio
+gzip
+#Imprimir un archivo
+lpr
