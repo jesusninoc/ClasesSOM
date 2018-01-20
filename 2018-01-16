@@ -53,3 +53,4 @@ lpr
 #Añadir un usuario a un grupo
 #Indicar si se está ejecutando o no un proceso
 #Indicar si se está ejecutando o no un servicio
+#Para un usuario indicado en el fichero hay que realizar copia de seguridad, ejemplo: juan,copiaseguridad
