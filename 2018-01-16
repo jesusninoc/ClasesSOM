@@ -81,7 +81,7 @@ lpr
 	ls directorio > listaDeDirectorio.txt
 	cat listadeDirectorio.txt
 
-4- Eliminar un fichero leyendo el nombre de este desde otro fichero.
+4- Eliminar un fichero leyendo el nombre de este desde otro fichero
 
 	echo fichero1.txt > fichero2.txt
 
@@ -90,13 +90,12 @@ lpr
 	fic=cat ficher2.txt
 	rm $fic
 
-
 5- Eliminar directorio leyendo el nombre desde este desde otro fichero.	
 
 	echo directorio > fichero.txt
 	
 	mkdir `cat fichero.txt`
-`
+	
 	rm -r `cat fichero.txt`
 	------------------------------
 	direc=cat fichero.txt
