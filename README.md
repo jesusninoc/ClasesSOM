@@ -1,2 +1,1 @@
-# ClasesSOM
-Clases de Sistemas Operativos Monopuesto
+# Clases de Sistemas Operativos Monopuesto
