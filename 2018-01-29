@@ -1,13 +1,9 @@
-#Analizar procesos
+#Ejercicios básicos en Linux
 
-#Ruta donde se ejecutan los procesos
-Get-Process -FileVersionInfo
-
-#Buscar un proceso que se está ejecutando
-(Get-Process).Where{$_.Name -like "chrome"}
-
-#Ver el padre de los procesos
-(Get-WmiObject win32_process) | Select-Object ProcessId,Description,ParentProcessId
-
-#Obtener más información sobre los procesos (línea de comandos)
-(Get-WmiObject win32_process) | Select-Object Processid,Name,CommandLine
+whois
+who
+wc
+wc -l
+cat
+cut
+cat
