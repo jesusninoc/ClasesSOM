@@ -1,4 +1,0 @@
-#Mostrar ficheros que se hayan escrito en los últimos 10 días (propiedad LastWriteTime)
-Get-ChildItem | where LastWriteTime -gt (get-date).AddDays(-10)
-
-#https://github.com/jesusninoc/PowerShell/blob/master/Fechas/EjemplosFechas.ps1
