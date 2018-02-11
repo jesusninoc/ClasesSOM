@@ -1,9 +1,0 @@
-#Ejercicios para examen
-
-#Ejecutar ohw
-`echo "ohw" | rev`
-
-#Ejecutar ohw guardado en un fichero
-echo "ohw" > fich
-cat fich | rev
-`cat fich | rev`
