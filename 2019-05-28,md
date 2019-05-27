@@ -1,0 +1,22 @@
+# Tareas de administración III
+- Gestión del almacenamiento
+- Gestión de la red
+- Copias de seguridad
+- Reparación del sistema
+- Rendimiento del sistema
+
+---------------
+
+# Rendimiento del sistema
+
+- Programas que se encargan de analizar el rendimiento.
+  - Administradores de tareas y procesos que dan información sobre los procesos y servicios que se ejecutan en el sistema.
+  - Eventos del sistema, que son acontecimientos que ocurren en el sistema operativo. 
+  - Monitor de rendimiento, que analiza el rendimiento del sistema operativo. Tiene control de la CPU, el disco, la red y la memoria.
+
+https://www.jesusninoc.com/2017/07/10/10-gestion-del-rendimiento-en-powershell/
+
+# Ejercicios en Linux de procesos, servicios e hilos
+* https://github.com/jesusninoc/ClasesISO/blob/master/2018-01-23.md
+* https://github.com/jesusninoc/Bash/blob/master/Procesos/EjerciciosProcesos.sh
+* https://bash.cyberciti.biz/guide/Service_command
